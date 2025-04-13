@@ -1,6 +1,6 @@
 import styles from "./ProjectsStyles.module.css";
-import viberr from "../../assets/viberr.png";
-import freshBurger from "../../assets/fresh-burger.png";
+import pheonix from "../../assets/Phoenix.png";
+import ilmchat from "../../assets/ilm-chat.png";
 import hipsster from "../../assets/hipsster.png";
 import fitLift from "../../assets/fitlift.png";
 import ProjectCard from "../../common/ProjectCard";
@@ -11,16 +11,16 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={ilmchat}
+          link="https://ilmchat.com"
+          h3="Ilm-Chat"
+          p="Rag AI chatbot for Muslim"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={pheonix}
+          link="https://github.com/z-m-oly/pheonix-chatbot"
+          h3="Pheonix"
+          p="Full-stack Ai Chatbot"
         />
         <ProjectCard
           src={hipsster}
