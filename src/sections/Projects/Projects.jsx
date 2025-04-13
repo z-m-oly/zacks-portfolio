@@ -1,8 +1,6 @@
 import styles from "./ProjectsStyles.module.css";
 import pheonix from "../../assets/Phoenix.png";
 import ilmchat from "../../assets/ilm-chat.png";
-import hipsster from "../../assets/hipsster.png";
-import fitLift from "../../assets/fitlift.png";
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -21,18 +19,6 @@ function Projects() {
           link="https://github.com/z-m-oly/pheonix-chatbot"
           h3="Pheonix"
           p="Full-stack Ai Chatbot"
-        />
-        <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
-        />
-        <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
         />
       </div>
     </section>
